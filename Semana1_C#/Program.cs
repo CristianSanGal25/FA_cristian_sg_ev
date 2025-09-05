@@ -10,7 +10,7 @@ namespace Semana1_C_
     {
         static void Main(string[] args)
         {
-            ejer1();
+            ejer2();
             Console.ReadKey();
         }
         static void ejer1()
@@ -24,6 +24,11 @@ namespace Semana1_C_
             carrera = Console.ReadLine();
 
             Console.WriteLine($"\n{nombre}, bienvenido al FA de {carrera}");
+        }
+
+        static void ejer2()
+        {
+            Console.WriteLine("\"Cristian\"");
         }
     }
 }
