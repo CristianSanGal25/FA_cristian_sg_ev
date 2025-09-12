@@ -60,5 +60,16 @@ namespace Semana1_C_
             Console.WriteLine("Al cubo: " + cubo);
             Console.WriteLine("Raiz3: " + raiz3);
         }
+        static void ejer5()
+        {
+            Console.WriteLine("Ingrese un numero: ";
+            string num = Console.ReadLine();
+
+            int entero = int.Parse(num);
+            double deci = double.Parse(num);
+
+            Console.WriteLine("Resto: " + (entero % 2));
+            Console.WriteLine("Divi 3: " + deci / 3);
+        }
     }
 }
